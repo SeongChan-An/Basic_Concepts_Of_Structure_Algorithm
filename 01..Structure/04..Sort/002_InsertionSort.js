@@ -12,7 +12,6 @@ function insertIndex(_sortedArr, _insertValue) {
     }
     return sortedArr.length;
 }
-
 for (let i = 0; i < arrLength; i++) {
     let insertValue = input.shift();
     let index = insertIndex(sortedArr, insertValue);
